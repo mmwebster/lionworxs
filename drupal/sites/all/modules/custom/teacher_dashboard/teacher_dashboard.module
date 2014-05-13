@@ -1,0 +1,103 @@
+<?php
+/**
+ * @file
+ * OTW Teacher Dashboard custom funtionality
+ */
+ 
+ /**
+  * Implements hook_block_info().
+  */
+ function teacher_dashboard_block_info() {
+	$blocks = array();
+	
+	//Declare all block in the teacher dashboard.
+	$blocks['teacher_dashboard_header'] = array(
+		'info' => t('Teacher Dashboard Header'),
+	);
+	
+	$blocks['teacher_dashboard_periods'] = array(
+		'info' => t('Teacher Dashboard Periods'),
+	);
+	
+	return $blocks;
+ }
+ 
+ /**
+  * Implements hook_block_view().
+  */
+  function teacher_dashboard_block_view($delta = '') {
+  	$block = array();
+	
+	//Set all content for all blocks in the teacher dashboard.
+	switch ($delta) {
+		case 'teacher_dashboard_header':
+			$block['subject'] = 'Dashboard';
+			$block['content'] = teacher_dashboard_block_contents($delta);
+			break;
+		case 'teacher_dashboard_periods':
+			$block['subject'] = 'Periods';
+			$block['content'] = teacher_dashboard_block_contents($delta);
+			
+			//Get the input form.
+			//$form = drupal_get_form('teacher_dashboard_input_form');
+		
+	}
+	
+	return $block;
+  }
+  
+  /**
+   * Teacher Dashboard block contents
+   * 
+   * @param string $delta
+   * 	The block ID.
+   * 
+   * @return string
+   * 	HTML output.
+   * 
+   */
+  function teacher_dashboard_block_contents($delta) {
+	$output = '';
+	
+	//Generate all content for each block in the teacher dashboard.
+	switch($delta) {
+		case 'teacher_dashboard_header': 
+			$output .= teacher_dashboard_getBlockContent('teacher_dashboard_header');
+			break;
+		case 'teacher_dashboard_periods':
+			$output .= teacher_dashboard_getBlockContent('teacher_dashboard_periods')	;
+			break;	
+	}
+	
+	return $output;
+  }
+  
+  include('includes/dashboard_content.php');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  //get form to then insert.
+  function teacher_dashboard_input_form($form, &$form_state) {
+  	$form['query'] = array(
+		'#type' => 'textfield',
+		'#name' => 'teacher_dashboard_query',
+	);
+	$form['submit_button'] = array(
+		'#type' => 'submit',
+		'#value' => 'Submit',
+	);
+	
+	return $form;
+  }
+  function teacher_dashboard_form_validate($form, &$form_state) {
+}
+function teacher_dashboard_form_submit($form, &$form_state) {
+}
+  

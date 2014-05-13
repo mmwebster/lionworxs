@@ -1,0 +1,14 @@
+<?php
+/**
+*Implements hook_install();
+**/
+
+function teacher_dashboard_mods_install() {
+	// Get localization function for installation as t() may be unavailable.
+	$t = get_t();
+
+	// Give user feedback.
+	drupal_set_message($t('Teacher Dashboard Mods Installed.'));
+}
+
+?>

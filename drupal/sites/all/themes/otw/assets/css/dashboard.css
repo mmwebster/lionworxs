@@ -1,0 +1,414 @@
+/*Dashboard styles in the #main div*/
+
+
+/*General styles*/
+.dashboard {
+	
+}
+
+#main h2 {
+	font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dashboard h2{
+	background-color: #0e7;
+}
+#block-views-a16f876710b9321ac44a4e8e04470596 h2 {
+	background-color: #0ae;
+	width: 312px;
+}
+.dashboard #block-views-f4dc52972a9fbbc1b0ffc139ff937170 h2 {
+	background-color: #0e7;
+}
+.dashboard #block-views-966c28b6deba754daa8d2973ad75baca h2 {
+	background-color: #0ae;
+}
+.dashboard h3 {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 100;
+	color: #08c;
+	text-align: center;
+	margin: 5px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
+}
+.dashboard h3 a {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 100;
+	color: #08c;
+	text-align: center;
+}
+
+.dashboard h5, .dashboard h5 a {
+	font-family: 'Open Sans';
+	font-size: 13px;
+	color: #056;
+	font-weight: 100 !important;
+}
+.dashboard p {
+	font-family: 'Lato';
+	font-size: 13px;
+	color: #666;
+	font-weight: 100;
+}
+
+
+/*Specific styles*/
+/*Teacher dashboard*/
+.dashboard #block-teacher-dashboard-teacher-dashboard-header h2 {
+	background-color: #00EE77;
+    width: 730px;
+}
+
+.dashboard #block-teacher-dashboard-teacher-dashboard-periods {
+	width: 133px;
+}
+.dashboard #block-teacher-dashboard-teacher-dashboard-periods h2 {
+    text-align: center;
+	font-weight: 100;
+	color: #333;
+}
+
+.dashboard #block-views-calendar-block-1 .calendar-calendar thead #Sunday, 
+.dashboard #block-views-calendar-block-1 .calendar-calendar thead #Saturday,
+.dashboard #block-views-calendar-block-1 .calendar-calendar thead .calendar-agenda-hour{
+	display: none;
+}
+.dashboard #block-views-calendar-block-1 .calendar-calendar td:nth-of-type(6), 
+.dashboard #block-views-calendar-block-1 .calendar-calendar td:nth-of-type(7),
+.dashboard #block-views-calendar-block-1 .calendar-calendar .calendar-agenda-hour{
+	display: none;
+}
+.view-teacher-calendar-assignments .view-filters #edit-submit-teacher-calendar-assignments {
+	padding: 7px;
+	border: 1px solid #07e;
+	background-color: rgba(0,220,250,.1);
+	font-family: 'Open Sans';
+	font-size:13px;
+	margin-top: 26px;
+}
+.view-teacher-calendar-assignments .view-filters #edit-submit-teacher-calendar-assignments:hover {
+	background-color: rgba(0,220,250,.4);
+	cursor: pointer;
+}
+.dashboard #block-block-3 h3, .dashboard #block-block-3 h3 a {
+	text-align: left;
+}
+.view-teacher-dashboard-edit-assignment .view-filters {
+	!display: none;
+}
+.teacher_calendar_item_title_inner:hover {
+	cursor:pointer;
+}
+block-views-a16f876710b9321ac44a4e8e04470596 {
+	display: none;
+}
+
+
+
+
+
+
+/*Student Dashboard*/
+.dashboard #block-views-f4dc52972a9fbbc1b0ffc139ff937170 .view-content {
+	margin-top: -27px; 
+	margin-bottom: 35px;
+}
+.dashboard #block-views-966c28b6deba754daa8d2973ad75baca .view-content {
+	margin-top: -27px; 
+}
+
+
+
+
+
+/***********************************
+************************************
+VIEWS Styles
+************************************
+***********************************/
+
+/*Dynamic current day styles*/
+.calendar-calendar .week_curr_day_header {
+	background-color: #04d !important;
+	color: #eee !important;
+}
+.calendar-calendar .not-all-day .calendar {
+	background-color: rgba(0,0,0,0);
+}
+.calendar-calendar .single-day {
+	padding: 5px 7px 7px 7px !important;
+}
+.calendar-calendar .week_curr_day_contents {
+	-webkit-box-shadow:inset 0 0 3px 1px rgba(0,62,227,.5);
+	-moz-box-shadow:inset 0 0 3px 1px rgba(0,62,227,.5);
+	-o-box-shadow:inset 0 0 3px 1px rgba(0,62,227,.5);
+	-ms-box-shadow:inset 0 0 3px 1px rgba(0,62,227,.5);
+	box-shadow:inset 0 0 3px 1px rgba(0,62,227,.5);
+}
+
+
+/*Static field styles*/
+.calendar-calendar .teacher_calendar_item_title, .calendar-calendar .teacher_calendar_item_title a {
+	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: 100;
+	color: #777 !important;
+}
+.calendar-calendar .teacher_calendar_item_type, .calendar-calendar .teacher_calendar_item_type div {
+	font-size: 11px;
+	font-family: 'Open Sans';
+	font-weight: 100;
+	color: #efefef !important;
+}
+
+.calendar-calendar td .inner .item .weekview, .calendar-calendar td .inner .item .contents{
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.calendar-calendar td .inner .item .weekview {
+	!border: 1px solid rgba(0,62,227,.5);
+	!border-radius: 8px;
+	padding: 8px;
+}
+
+/*Misc. Display style*/
+.dashboard .date-prev {
+	margin-left: 0px !important;
+	margin-top: 8px;
+}
+.dashboard .date-next {
+	margin-top: 8px; 
+}
+.dashboard .date-heading h3 {
+	margin-top: -10px !important;
+}
+.dashboard .view-header, .dashboard .date-nav-wrapper, .dashboard .date-nav {
+	margin-bottom: 0px !important;
+}
+/*HERE*/
+.dashboard .view-filters {
+	margin-top: -35px;
+	margin-bottom: 17px;
+}
+.dashboard .view-filters #edit-field-class-nid-wrapper label {
+	display: block;
+	font-size: 18px;
+	color: #07e;
+	font-weight: 100;
+	font-family: 'Open Sans';
+}
+.dashboard .view-filters .views-widget select {
+	padding: 5px;
+	border: 1px solid #07e;
+	background-color: rgba(0,220,250,.1);
+	font-family: 'Open Sans';
+	font-size:13px;
+}
+.dashboard .view-filters .views-widget select:hover {
+	cursor: pointer;
+}
+ .dashboard .view-filters .views-widget option {
+ 	background-color: rgba(0,220,250,.5);
+ 	padding: 0px 7px 4px 7px;
+ 	font-size:13px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+.week-view .days {
+	padding: 5px 0px 5px 0px !important;
+}
+.week-view .views-field h4 {
+	font-size: 13.5px !important;
+	font-family: 'Open Sans' !important;
+	font-weight: 100 !important;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+/*Editing block styling*/
+.view-id-teacher_dashboard_edit_assignment {
+	width: 322px;
+}
+.view-id-teacher_dashboard_edit_assignment .view-content {
+	margin-top: -10px;
+}
+.view-id-teacher_dashboard_edit_assignment .view-content label {
+	font-weight: 100;
+}
+#editableviews-entity-form-teacher-dashboard-edit-assignment {
+	width: 300px;
+	padding: 10px;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-radius:0px 0px 6px 6px;
+	
+}
+#editableviews-entity-form-teacher-dashboard-edit-assignment tbody {
+	border: 1px solid rgba(0,0,0,0) !important;
+}
+#editableviews-entity-form-teacher-dashboard-edit-assignment tr {
+	background-color: rgba(0,0,0,0);
+}
+#editableviews-entity-form-teacher-dashboard-edit-assignment tr td {
+	float: left !important;
+	margin-bottom: 10px !important;
+	display: block !important;
+	width: 300px !important;
+	overflow: hidden;
+}
+#editableviews-entity-form-teacher-dashboard-edit-assignment tr td .views-row-edit-static,
+#editableviews-entity-form-teacher-dashboard-edit-assignment tr td .description,
+#editableviews-entity-form-teacher-dashboard-edit-assignment tr td .filter-guidelines {
+	display: none !important;
+}
+#edit-node-1056-field-description-und-0-format-help a {
+	font-size: 13px;
+}
+#edit-node-1056-field-description-und-0-format-help {
+	width: 250px;
+	padding-left: 0px;
+	text-indent: -24px;
+}
+#edit-node-1056-field-description-und-0-format {
+	padding: 7px;
+}
+.form-item-node-1056-field-description-und-0-format {
+	padding: 0px 0px 0px 8px !important;
+}
+.form-item-node-1056-field-description-und-0-format label {
+	margin-right: 10px;
+}
+
+
+
+/*NEW Dashboard Styles*/
+
+#student_dashboard_custom_block .content {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 0px;
+	margin-bottom: 30px;
+}
+#student_dashboard_custom_block .content .dashboard_day{
+	width: 183px;
+	float: left;
+	min-height: 300px;
+}
+#student_dashboard_custom_block .content .tomorrow_box{
+	-webkit-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.7);
+	-moz-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.7);
+	-o-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.7);
+	-ms-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.7);
+	box-shadow: inset 0 0 3px 1px rgba(0,62,227,.7);
+}
+#student_dashboard_custom_block .content .tomorrow_header{
+	-webkit-box-shadow: inset 0 0 7px 1px rgba(0,62,227,.9);
+	-moz-box-shadow: inset 0 0 7px 1px rgba(0,62,227,.9);
+	-o-box-shadow: inset 0 0 7px 1px rgba(0,62,227,.9);
+	-ms-box-shadow: inset 0 0 7px 1px rgba(0,62,227,.9);
+	box-shadow: inset 0 0 7px 1px rgba(0,62,227,.9);
+}
+#day1,#day2,#day3 {
+	border-right: 1px solid #ccc;
+}
+.dashboard_day .dash_container {
+	padding: 0px;
+}
+.dashboard_day h3 {
+	text-align: left;
+	padding: 7px;
+	background-color: #eee;
+	margin: 0px 0px 0px 0px;
+}
+.dashboard_day .item_title {
+	font-family: 'Lato';
+	font-size: 14px;
+}
+.dashboard_day .item_class {
+	font-family: 'Lato';
+	font-size: 12px;
+	padding: 5px;
+	padding-left: 5px;
+	color: #000;
+}
+.dashboard_day .item_description {
+	color: #999;
+	font-family: 'Lato';
+	font-size: 13px;
+}
+.dashboard_day ul {
+	padding: 5px;
+	border-top: 1px solid #08e;
+}
+.dashboard_day .ul_last {
+	border-bottom: 1px solid #08e;
+}
+.dashboard_day ul:hover {
+	-webkit-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.5);
+	-moz-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.5);
+	-o-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.5);
+	-ms-box-shadow: inset 0 0 3px 1px rgba(0,62,227,.5);
+	box-shadow: inset 0 0 3px 1px rgba(0,62,227,.5);
+}
+.dashboard_day ul li{
+	list-style: none;
+}
+
+
+#student_dashboard_custom_block .load_day {
+	background-color: #0ae;
+	padding:5px;
+	width: 60px;
+	text-align: center;
+	color: #fefefe;
+	font-family: 'Open Sans';
+	font-weight: 100;
+	font-size: 12px;
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+#student_dashboard_custom_block .load_day:hover {
+	-webkit-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.5);
+	-o-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.5);
+	-ms-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.5);
+	box-shadow: inset 0 0 3px 1px rgba(0,0,0,.5);
+}
+#student_dashboard_custom_block #load_left { 
+	float:left;
+	border-radius: 0px 5px 5px 0px;
+}
+#student_dashboard_custom_block #load_right { 
+	float:right;
+	border-radius: 5px 0px 0px 5px;
+}
+
+
+
+
+
+
+
+

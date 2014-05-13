@@ -1,0 +1,32 @@
+#main .absent_header {
+	background-color: #0e7;
+}
+#main #edit-submit-student-absent-aggregator-date, #main #edit-submit-student-absent-aggregator {
+	padding: 7px;
+	background-color: #0ae;
+	border: 1px solid #999;
+	border-radius: 9px;
+}
+#main #edit-submit-student-absent-aggregator-date:hover, #main #edit-submit-student-absent-aggregator:hover {
+	background-color: #09d;
+	cursor: pointer;
+}
+
+
+/*Styles for search results*/
+#main .views-table {
+	margin-top: 20px;
+}
+#main .views-table thead .views-field{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 100;
+}
+#main .views-table tbody td{
+	padding: 10px;
+}
+#main .views-table tbody .views-field{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 100;
+}

@@ -1,0 +1,126 @@
+<?php
+/**
+ * @file
+ * Custom functionality for a wind farm database.
+ */
+
+/**
+ * Implements hook_help().
+ */
+ 
+ function command_bar_help($path, $arg) {
+	switch ($path) {
+	    case 'admin/help#command_bar':{
+	      $ret_val = '<h3>' . t('About') . '</h3>';
+	      $ret_val = '<p>' . t('The Command Bar module makes it easy to perform menial tasks through your dashboard.') . '</p>';
+	      return $ret_val;
+	      break;
+	    }
+	} 
+ }
+ 
+ 
+/**
+ * Implements hook_permission().
+ */
+function command_bar_permission() {
+  return array(
+    'administer command bar' => array(
+      'title' => t('Administer Command Bar'),
+      'description' => t('Perform administrative tasks on Command Bar functionality'),
+    ),
+    
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function command_bar_menu() {
+  $items = array();
+
+  // Admin configuration group.
+  $items['admin/config/command_bar'] = array(
+    'title' => 'Command Bar',
+    'description' => 'Administer Command Bar',
+    'access arguments' => array('administer command bar'),
+  );
+
+  return $items;
+}
+ 
+ /**
+  * Implements hook_block_info().
+  */
+ function command_bar_block_info() {
+	$blocks = array();
+	$blocks['command_bar'] = array(
+		'info' => t('Command Bar'),
+	);
+	return $blocks;
+ }
+ 
+ /**
+  * Implements hook_block_view().
+  */
+  function command_bar_block_view($delta = '') {
+  	$block = array();
+	
+	switch ($delta) {
+		case 'command_bar':
+			$block['subject'] = 'Command Bar';
+			//Get the input form.
+			$form = drupal_get_form('command_bar_input_form');
+			$block['content'] = $form;
+			//command_bar_block_contents($delta);
+			break;
+		
+	}
+	
+	return $block;
+  }
+  
+  /**
+   * Command bar block contents
+   * 
+   * @param string $delta
+   * 	The block ID.
+   * 
+   * @return string
+   * 	HTML output.
+   * 
+   */
+  function command_bar_block_contents($delta) {
+	$output = '';
+	
+	switch($delta) {
+		case 'command_bar': {
+			$output .= "<div id='command_bar_container'>";
+			
+			$output .= "</div>";
+			break;
+		}
+	}
+	
+	return $output;
+	
+  }
+  //get form to then insert.
+	//$form = drupal_get_form('command_bar_input_form');
+  function command_bar_input_form($form, &$form_state) {
+  	$form['query'] = array(
+		'#type' => 'textfield',
+		'#name' => 'command_bar_query',
+	);
+	$form['submit_button'] = array(
+		'#type' => 'submit',
+		'#value' => 'Submit',
+	);
+	
+	return $form;
+  }
+  function form_example_form_validate($form, &$form_state) {
+}
+function form_example_form_submit($form, &$form_state) {
+}
+  

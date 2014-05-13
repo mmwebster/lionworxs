@@ -1,0 +1,4 @@
+name = Teacher Dashboard Mods
+description = A combination of modifications for the teacher dashboard
+core = 7.x
+version = 7.x-0.1-dev

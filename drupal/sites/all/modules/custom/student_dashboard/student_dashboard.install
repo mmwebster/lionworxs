@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file
+ * Wind Farms installation
+ */
+
+/**
+ * Implements hook_install().
+ */
+ 
+ function command_bar_install() {
+ 	
+	//Get translation function.
+	$t = get_t();
+	
+	//Tell user that the command_bar has been installed
+	drupal_set_message($t('The command bar has been successfully installed.'));
+ 	
+ }

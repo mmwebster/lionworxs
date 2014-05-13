@@ -1,0 +1,175 @@
+<?php
+/**
+ * @file
+ * Teacher Dashboard installation
+ */
+
+/**
+ * Implements hook_install().
+ */
+ 
+ function teacher_dashboard_install() {
+ 	
+	//Get translation function.
+	$t = get_t();
+	
+	//Tell user that the command_bar has been installed
+	drupal_set_message($t('The teacher dashboard has been successfully installed.'));
+	
+	//Create content types, fields, and instances arrays
+	$content_types = array();
+	$fields = array();
+	$instances = array();
+	
+	//Define content types.
+	$content_type['otw_assignment'] = array(
+		'type' => 'otw_assignment',
+		'name' => $t('OTW Assignment'),
+		'description' => $t('Teacher produced, school assignments'),
+		'title_label' => $t('Name'),
+		'base' => 'node_content',
+		'custom' => TRUE,
+	);
+	
+	drupal_set_message('Point #1');
+	
+	foreach($content_type as $name=>$value) {
+		//set fields array
+		$fields[$name] = array();
+		
+		//set instances array
+		$instances[$name] = array();
+		
+		// set other node defaults not declared above
+		$content_type[$name] = node_type_set_defaults($content_type[$name]);
+		
+		// add the body field
+		node_add_body_field($content_type[$name], $t('Description'));
+		
+		// save the content type
+		node_type_save($content_type[$name]);
+		
+	}
+	
+	$fields['otw_assignment']['assignment_due_date'] = array(
+		'field_name' => 'assignment_due_date',
+		'type' => 'date',
+	);
+	$fields['otw_assignment']['assignment_assigned_date'] = array(
+		'field_name' => 'assignment_assigned_date',
+		'type' => 'date',
+	);
+	
+	$fields['otw_assignment']['assignment_length'] = array(
+		'field_name' => 'assignment_length',
+		'type' => 'number_integer',
+	);
+	$fields['otw_assignment']['assignment_attachments'] = array(
+		'field_name' => 'assignment_attachments',
+		'type' => 'file',
+	);
+	$fields['otw_assignment']['assignment_type'] = array(
+		'field_name' => 'assignment_type',
+		'type' => 'text',
+	);/**/
+	
+	
+	//****Still single purpose
+	foreach ($fields['otw_assignment'] as $field) {
+	    field_create_field($field);
+	}
+	
+
+	$instances['otw_assignment']['due_date'] = array(
+		'field_name' => 'assignment_due_date',
+		'label' => $t('Due Date'),
+		'description' => $t('The date that the assignment is due.'),
+		'widget' => array(
+			'type' => 'date_select',
+		),
+		'required' => TRUE,
+	);
+
+	$instances['otw_assignment']['assigned_date'] = array(
+		'field_name' => 'assignment_assigned_date',
+		'label' => $t('Date Assigned'),
+		'description' => $t('The date that students will be assigned this assignment. Once the assigned date has passed, this assignment will become "active" and appear in the students\' dashboards.'),
+		'widget' => array(
+			'type' => 'date_select',
+		),
+		'required' => TRUE,
+	);
+
+	$instances['otw_assignment']['length'] = array(
+		'field_name' => 'assignment_length',
+		'label' => $t('Length'),
+		'description' => $t('The approximate amount of time (in minutes) that the assignment will take to complete.'),
+		'widget' => array(
+			'type' => 'number',
+		),
+		'required' => FALSE,
+	);
+
+	$instances['otw_assignment']['attachments'] = array(
+		'field_name' => 'assignment_attachments',
+		'label' => $t('Attachments'),
+		'description' => $t('Any resources required to complete this assignment.'),
+		'widget' => array(
+			'type' => 'file_generic',
+		),
+		'required' => FALSE,
+	);
+	
+	$instances['otw_assignment']['type'] = array(
+		'field_name' => 'assignment_type',
+		'label' => $t('Type'),
+		'description' => $t('The type of assignment (i.e. reading, bookwork, etc.).'),
+		'widget' => array(
+			'type' => 'text_textfield',
+		),
+		'required' => FALSE,
+	);
+
+	//**********Still single purpose
+	foreach ($instances['otw_assignment'] as $instance) {
+	    $instance['entity_type'] = 'node';
+	    $instance['bundle'] = 'otw_assignment';
+	    field_create_instance($instance);
+	}
+	
+ }
+
+ function teacher_dashboard_uninstall() {
+ 	// Inform the user of the removal.
+    $t = get_t();
+	
+	// Remove all fields and field instances.
+	//************Still single purpose
+	foreach (field_info_instances('node', 'otw_assignment') as $field_name => $instance) {
+		drupal_set_message('Deleting "' . $field_name . '" field.');
+	    field_delete_field($field_name);
+	    field_delete_instance($instance);
+		drupal_set_message('"' . $field_name . '" field deleted.');
+	}
+	drupal_set_message($t('Teacher Dashboard field and field instances removed.'));
+	
+	//static fields to delete
+	drupal_set_message('Deleting statics');
+	
+	field_delete_field('assignment_due_date');
+	field_delete_field('assignment_assigned_date');
+	field_delete_field('assignment_length');
+	field_delete_field('assignment_attachments');
+	field_delete_field('assignment_type');
+	
+	drupal_set_message('Statics deleted');
+	
+	// Delete the content type.
+	node_type_delete('otw_assignment');
+		 
+	// Clean up deleted fields.
+	field_purge_batch(1000);
+	
+	//Notify successful deletion
+    drupal_set_message($t('Teacher Dashboard uninstalled.:)'));
+ }
