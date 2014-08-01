@@ -1,6 +1,0 @@
-name = Teacher Dashboard
-description = Teacher dashboard that controls all main functionality available to students in their dashboard.
-core = 7.x
-version = 7.x-0.1-dev
-;configure = admin/config/command_bar/manage
-dependencies[] = date

@@ -1,6 +1,0 @@
-;dummy module for learning module dev
-name = Practice
-description = Practice replication of module.
-core = 7.x
-version = 7.x-0.1-dev
-configure = admin/config/practice/manage
