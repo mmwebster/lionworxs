@@ -8,3 +8,9 @@ Lionworxs.NavigationController = Ember.Controller.extend
     else
       false
   ).property('loggedIn')
+
+  actions:
+    logOut: ->
+      logout = confirm("Are you sure you would like to logout?")
+      if logout
+        @controllerFor('application').logOut()

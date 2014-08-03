@@ -15,20 +15,11 @@
       content=user_types
       optionValuePath="content.cr"
       optionLabelPath="content.hr"
-      value=selected_type}}
-    <button {{action login}}>Login</button>
-
-    <hr />
-
-    <select class="sort-button">
-      <option>Select</option>
-      <option {{action login}}>Student</option>
-      <option {{action login 'parent'}}>Parent</option>
-      <option {{action login 'teacher'}}>Teacher</option>
-      <option {{action login 'administrator'}}>Administrator</option>
-    </select>
-
-    <!--<h4><button {{action toggleSort}} class='sort-button'>Login</button></h4>-->
+      value=selected_type
+      classNames="reg-button"
+    }}
+    <br />
+    <button {{action login}} class="reg-button">Login</button>
 
   </div>
 </div>
