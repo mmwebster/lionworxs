@@ -1,5 +1,6 @@
 Lionworxs.NewsController = Ember.ArrayController.extend
   sortProperties: ['date']
+
   sortAscending: true
 
   contents: []
@@ -15,7 +16,7 @@ Lionworxs.NewsController = Ember.ArrayController.extend
   actions:
     toggleSort: ->
       if @get 'sortAscending'
-        @set'sortAscending', false
+        @set 'sortAscending', false
 
       else
         @set 'sortAscending', true
