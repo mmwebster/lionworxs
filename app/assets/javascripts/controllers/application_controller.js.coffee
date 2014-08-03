@@ -11,3 +11,7 @@ Lionworxs.ApplicationController = Ember.Controller.extend
     @set('loggedIn', true)
     @set('userType', user_type)
     @transitionTo(user_type + '.dashboard')
+  logOut: ->
+    @set('loggedIn', false)
+    @set('userType', false)
+    @transitionTo('index')

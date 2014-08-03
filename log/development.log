@@ -10205,3 +10205,2057 @@ ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png
   Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
   Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
   Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:18:45 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (708.7ms)
+Completed 200 OK in 711ms (Views: 710.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:18:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:20:57 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (503.6ms)
+Completed 200 OK in 506ms (Views: 505.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:58 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:20:59 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:20:59 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:29:51 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (796.2ms)
+Completed 200 OK in 799ms (Views: 797.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:29:52 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.1ms)
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:30:04 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (30.5ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:05 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:30:06 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:30:59 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (499.2ms)
+Completed 200 OK in 502ms (Views: 501.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:00 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:31:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:31:05 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (41.4ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:06 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:31:07 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (29.5ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:09 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:31:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:31:58 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (561.1ms)
+Completed 200 OK in 564ms (Views: 563.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:31:59 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:32:00 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:32:00 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:32:59 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (825.3ms)
+Completed 200 OK in 828ms (Views: 827.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:33:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (34.5ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:02 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:33:03 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:35:14 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (1162.4ms)
+Completed 200 OK in 1165ms (Views: 1164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (27.6ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:15 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:16 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:16 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:35:16 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:35:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:50:05 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (1080.9ms)
+Completed 200 OK in 1083ms (Views: 1082.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+Processing by AssetsController#index as HTML
+  Rendered assets/index.html.erb (30.7ms)
+Completed 200 OK in 35ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/header.css?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/app.css?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/navigation.css?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/handlebars.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/ember.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:09 -0700
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/ember-data.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/content/assignment.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/content/class.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/grading/grading_category.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/grading/grading_system.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/content/school.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/grading/subject.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/user/workload_variance.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/content/district.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/news_item.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/user/user.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/models/user/user_settings.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/controllers/application_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/controllers/login_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/controllers/news_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/controllers/logout_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/_students_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/about.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/helpers/html_helper.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/_navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/controllers/navigation_controller.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/login.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/application.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/index.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/contact.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/logout.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/navigation.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/news.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/routes/index_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/templates/students/dashboard.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/routes/application_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/routes/logout_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/routes/navigation_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/routes/news_route.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/assets/lionworxs.js?body=1" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+
+Started GET "/images/moon-300x296.png" for 127.0.0.1 at 2014-08-03 14:50:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/moon-300x296.png"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/milowebster/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/milowebster/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.9ms)
