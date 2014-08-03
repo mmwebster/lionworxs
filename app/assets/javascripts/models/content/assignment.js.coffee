@@ -1,0 +1,13 @@
+Lionworxs.Assignment = DS.Model.extend
+  author: DS.belongsTo('user')
+  name: DS.attr('string')
+  description: DS.attr('string')
+  administrators: DS.hasMany('user')
+  assigned_date: DS.attr('date')
+  action_date: DS.attr('date')
+  class: DS.belongsTo('class')
+  type: DS.attr('string')
+  grading_category: DS.hasMany('gradingCategory')
+  attachments: DS.hasMany('attachment')
+  length: DS.attr('number')
+  points: DS.attr('number')
