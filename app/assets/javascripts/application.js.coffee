@@ -8,3 +8,4 @@
 # for more details see: http://emberjs.com/guides/application/
 window.Lionworxs = Ember.Application.create()
 
+Lionworxs.ApplicationAdapter = DS.FixtureAdapter
